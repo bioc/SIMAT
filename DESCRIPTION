@@ -1,10 +1,18 @@
 Package: SIMAT
 Type: Package
 Title: GC-SIM-MS data processing and alaysis tool
+<<<<<<< HEAD
 Version: 1.12.0
 Author: Mo R. Nezami Ranjbar <nranjbar@vt.edu>
 Maintainer: Mo R. Nezami Ranjbar <nranjbar@vt.edu>
 Depends: R (>= 3.4.0), Rcpp (>= 0.11.3)
+=======
+Version: 1.13.3
+Date: 2018-08-02
+Author: M. R. Nezami Ranjbar <nranjbar@vt.edu>
+Maintainer: M. R. Nezami Ranjbar <nranjbar@vt.edu>
+Depends: R (>= 3.5.0), Rcpp (>= 0.11.3)
+>>>>>>> bff3e82... bug fix: NAMESPACE export section, added writeResult.R
 Imports: mzR, ggplot2, grid, reshape2
 Suggests: RUnit, BiocGenerics
 Description: This package provides a pipeline for analysis of GC-MS
