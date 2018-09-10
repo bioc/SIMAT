@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## function to perform unit test for putTargetTable
 
 test_putTargetTable <- function() {
@@ -10,17 +9,4 @@ test_putTargetTable <- function() {
     Table <- list()
     checkException(putTargetTable(target.table.file = Table), 
                    "Please provide a string for the output file name!")    
-=======
-## function to perform unit test for putTargetTable
-
-test_putTargetTable <- function() {
-    
-    Test <- "Test"
-    checkException(putTargetTable(target.table = Test), 
-                   "target.table should be a list")    
-    
-    Table <- list()
-    checkException(putTargetTable(target.table.file.name = Table), 
-                   "Please provide a string for the output file name!")    
->>>>>>> a47c7627bf6d3d12ff2c470fcf84fb1634b45cf1
 }

@@ -2,10 +2,8 @@ Package: SIMAT
 Type: Package
 Title: GC-SIM-MS data processing and alaysis tool
 Version: 1.12.1
-Author: Mo R. Nezami Ranjbar <nranjbar@vt.edu>
-Maintainer: Mo R. Nezami Ranjbar <nranjbar@vt.edu>
-Depends: R (>= 3.4.0), Rcpp (>= 0.11.3)
-Date: 2018-08-02
+Author: M. R. Nezami Ranjbar <nranjbar@vt.edu>
+Maintainer: M. R. Nezami Ranjbar <nranjbar@vt.edu>
 Depends: R (>= 3.5.0), Rcpp (>= 0.11.3)
 Imports: mzR, ggplot2, grid, reshape2, grDevices, stats, utils
 Suggests: RUnit, BiocGenerics
